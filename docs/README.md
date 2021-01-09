@@ -10,6 +10,6 @@ Z-BlogASP是一款基于ASP平台的博客程序，支持Access、MSSQL数据库
 
 ### 项目地址
 
-`zblogcn/zblogasp`：https://github.com/zblogcn/docs-zblogasp
+`zblogcn/zblogasp`：https://github.com/zblogcn/zblogasp
 
 `zblogcn/docs-zblogasp`: https://github.com/zblogcn/docs-zblogasp \[[线上地址](https://docs.zblogcn.com/asp/#/ "Z-BlogPHP 官方文档")\]
