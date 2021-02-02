@@ -35,6 +35,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: login upyun
         run: |
-          echo ${{secrets.UPYUN_OPERATOR}}
-          cd /home/runner/work/docs-zblogasp/docs-zblogasp
+          sudo upx login asp-docs ${{secrets.UPYUN_OPERATOR}} ${{secrets.UPYUN_PASSWORD}}
+          sudo cd $GITHUB_WORKSPACE
           ls
