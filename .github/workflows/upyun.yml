@@ -30,11 +30,11 @@ jobs:
         run: |
           wget http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.4_linux_x86_64.tar.gz      
           sudo tar -zxvf upx_0.3.4_linux_x86_64.tar.gz  
-          sudo cp upx /user/bin/
+          sudo cp upx /bin/
 
       # Runs a set of commands using the runners shell
       - name: login upyun
         run: |
-          echo ${secrets.UPYUN_OPERATOR}
+          echo ${{secrets.UPYUN_OPERATOR}}
           cd /home/runner/work/docs-zblogasp/docs-zblogasp
           ls
