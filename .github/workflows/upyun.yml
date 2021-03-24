@@ -33,5 +33,5 @@ jobs:
 
       - name: login upyun
         run: |
-          sudo ./upx login asp-docs ${{secrets.UPYUN_OPERATOR}} ${{secrets.UPYUN_PASSWORD}}
-          sudo ./upx sync $GITHUB_WORKSPACE/docs /
+          sudo ./upx login docs-zblogcn-all ${{secrets.UPYUN_OPERATOR}} ${{secrets.UPYUN_PASSWORD}}
+          sudo ./upx sync $GITHUB_WORKSPACE/docs /asp
